@@ -58,7 +58,7 @@ for i in message.lower():
     tras.append(data[i])
 
 for j in range(len(tras)):
-    print(message[j])
+    print(message[j] + " - " + data[message[j]])
     for x in tras[j]:
         if(x == "1"):
             playsound('assets\short.mp3')
